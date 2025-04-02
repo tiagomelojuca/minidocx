@@ -1,5 +1,5 @@
 ﻿
-cmake_minimum_required(VERSION 3.28)
+cmake_minimum_required(VERSION 3.24)
 project(minidocx VERSION 1.0.0 LANGUAGES C CXX)
 
 option(BUILD_SHARED    "Build shared library"         OFF)
@@ -9,10 +9,10 @@ option(WITH_STATIC_CRT "Use static C Runtime library" OFF)
 
 set(CMAKE_C_STANDARD 11)
 set(CMAKE_C_STANDARD_REQUIRED ON)
-set(CMAKE_CXX_STANDARD 20)
+set(CMAKE_CXX_STANDARD 14)
 set(CMAKE_CXX_STANDARD_REQUIRED ON)
 set(CMAKE_DEBUG_POSTFIX d)
-set(CMAKE_CONFIGURATION_TYPES Debug Release)
+set(CMAKE_CONFIGURATION_TYPES Debug Release RelWithDebInfo)
 set(CMAKE_VS_DEBUGGER_WORKING_DIRECTORY "${PROJECT_SOURCE_DIR}") # Added in version 3.27.
 set(CMAKE_DEBUGGER_WORKING_DIRECTORY "${PROJECT_SOURCE_DIR}") # Added in version 4.0.
 
