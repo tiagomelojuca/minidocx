@@ -4,7 +4,9 @@
  * Report bugs and download new versions at https://github.com/totravel/minidocx
  */
 
-#pragma once
+// ToDo: Downgrade this file
+
+ #pragma once
 
 #include "word/main/properties/paragraph.hpp"
 #include "word/main/properties/richtext.hpp"

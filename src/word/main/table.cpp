@@ -4,6 +4,8 @@
  * Report bugs and download new versions at https://github.com/totravel/minidocx
  */
 
+// ToDo: Downgrade this file
+
 #include "word/main/table.hpp"
 #include "word/main/cell.hpp"
 #include "utils/exceptions.hpp"
